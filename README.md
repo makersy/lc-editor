@@ -1,7 +1,7 @@
 # lc-editor
-This is a java project used with [LeetCode Plugin](https://github.com/shuzijun/leetcode-editor).
+This is a Java project template used with [LeetCode Plugin](https://github.com/shuzijun/leetcode-editor).
 
-We can write LeetCode in this project when using JetBrains IDEs like IDEA. 
+You can write LeetCode in this project when using JetBrains IDEs like IDEA. 
 
 # LeetCode Plugin Configuration
 

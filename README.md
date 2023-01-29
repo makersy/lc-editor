@@ -5,11 +5,11 @@ You can write LeetCode in this project when using JetBrains IDEs like IDEA.
 
 # LeetCode Plugin Configuration
 
-Configure these to make Java code error-free and runnable.
+Configure below to make Java code error-free and runnable.
 
 ## Code FileName:
 ```text
-$!velocityTool.camelCaseName(${question.titleSlug})
+${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})
 ```
 
 ## Code Template:

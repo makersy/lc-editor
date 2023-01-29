@@ -60,3 +60,5 @@ build/
 
 /**/doc/submission/
 /**/doc/solution/
+
+git-*.sh

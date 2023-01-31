@@ -5,23 +5,21 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author yanghaolin
- * @date 2023/1/17
+ * @date 2023/1/31
  * @description
  */
 
 @NoArgsConstructor
-public class TreeNode {
+public class ListNode {
     public int val;
-    public TreeNode left;
-    public TreeNode right;
+    public ListNode next;
 
-    TreeNode(int val) {
+    ListNode(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
-        this.left = left;
-        this.right = right;
+        this.next = next;
     }
 }

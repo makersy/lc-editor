@@ -1,3 +1,5 @@
+#!/bin/bash -e
+
 echo '-------- start push --------'
 
 git add .

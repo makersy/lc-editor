@@ -8,6 +8,6 @@ msg='day: '$(date +%y/%m/%d)
 
 git commit -m "$msg"
 
-git push -u origin master
+git push
 
 echo '------- push success -------'

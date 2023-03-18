@@ -1,13 +1,20 @@
 #!/bin/bash -e
 
-echo '-------- start push --------'
+echo '-------- Start push --------'
 
 git add .
 
 msg='day: '$(date +%y/%m/%d)
 
-git commit -m "$msg"
+if ! git commit -m "$msg"; then
+    echo "Commit failed"
+fi
 
-git push
+if ! git push; then
+    echo "Push failed"
+    exit 1
+fi
 
-echo '------- push success -------'
+exit 0
+
+echo "------- Push success -------"

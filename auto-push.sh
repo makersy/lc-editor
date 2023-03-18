@@ -15,6 +15,5 @@ if ! git push; then
     exit 1
 fi
 
-exit 0
-
 echo "------- Push success -------"
+exit 0

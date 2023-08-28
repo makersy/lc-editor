@@ -11,7 +11,7 @@ if ! git commit -m "$msg"; then
 fi
 
 if ! git pull --rebase; then
-    echo "Commit failed"
+    echo "Pull failed"
 fi
 
 if ! git push; then
